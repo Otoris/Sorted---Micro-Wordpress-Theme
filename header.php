@@ -10,3 +10,6 @@
 	<?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 	<?php wp_head(); ?>
 </head>
+<header id="site-header">
+	<div id="site-banner"></div><div id="site-title"></div>
+</header>
